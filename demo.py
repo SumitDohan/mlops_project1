@@ -21,7 +21,7 @@
 
 # --------------------------------------------------------------------------------
 
-#rom src.pipline.training_pipeline import TrainPipeline
+from src.pipline.training_pipeline import TrainPipeline
 
-#ipline = TrainPipeline()
-#ipline.run_pipeline()
+pipline = TrainPipeline()
+pipline.run_pipeline()
